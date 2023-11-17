@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./doc login.css">
+        <script type="text/javascript" src="js.js"></script>
+    <title>Doctor Login</title>
+
+</head>
+
+<body>
+    <div class="head">
+<nav>  
+<img src="N1.png"  class="logo" width="90" height="90">
+<ul> 
+  <li><a href="index.html"> HOME </a>  </li>
+<li><a href="docsp.html"> DOCTOR </a>  </li>
+<li><a href="doctor login.html"> DOCTOR LOGIN </a>  </li>
+<li><a href="admin login.html"> ADMIN LOGIN </a>  </li>
+<li><a href="contact.html"> CONTACT </a></li>    
+</ul>
+</nav>  
+</div>
+
+    <div class="container">
+
+        <form name="myform" id="form" onsubmit="return vfun()">
+            <h1>DOCTOR LOGIN</h1>
+            <div class="inputs">
+                <input type="text" name="name" class="name" maxlength="100" minlength="3" placeholder="Your Name"
+                    required> <br>
+                <input type="text" name="user" class="Your Id" maxlength="100" minlength="3" placeholder="Your ID" id="eemail"
+                    required> <br>
+                <input type="password" name="pass" class="password" maxlength="32" minlength="8" placeholder="Password" id="lpassword"
+                    required> <br>
+            </div>
+            <div class="buttons">
+                <button type="submit" onclick ="SignIn()" style="text-decoration: none;">Login</button>
+            </div>
+            <div class="links">
+                <a href="#" class="forgetPassword">Forget Password ?</a> 
+            </div>
+        </form>
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="./doctot.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="server.js"></script>
+</body>
+
+</html>

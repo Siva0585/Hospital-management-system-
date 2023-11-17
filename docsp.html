@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="aj.css">
+  <style type=text/css>   
+*  {  
+margin: 0;
+font-family: sans-serif;
+padding: 0;  
+}  
+
+.head{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #eff4fd;
+}
+nav
+{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+
+}
+nav ul li a:hover{
+  color: blueviolet;
+}
+.list{
+  padding-left: 50px;
+}
+.info
+{
+  padding-left: 70px;
+  line-height: 1.6;
+}
+.wrapper {
+  padding-left: 220px;
+  position: absolute;
+  top: 53%;
+  left: 25%;
+  padding-top: 40px;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border-radius: 15px;
+}
+
+.wrapper .wrapper_left {
+  width: 250px;
+  padding-right: 280px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+.wrapper .wrapper_left ul li {
+  background: #313142;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.wrapper .wrapper_left ul li p {
+  color: red;
+  position: relative;
+}
+
+.wrapper .wrapper_left ul li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 70%;
+  );
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: all 0.4s ease;
+}
+</style> 
+</head>
+<body>
+
+<div class="head">
+<nav>  
+<img src="N1.png"  class="logo" width="90" height="90">
+<ul> 
+  <li><a href="index.html"> HOME </a>  </li>
+<li><a href="docsp.html"> DOCTOR </a>  </li>
+<li><a href="doctor login.html"> DOCTOR LOGIN </a>  </li>
+<li><a href="admin login.html"> ADMIN LOGIN </a>  </li>
+<li><a href="contact.html"> CONTACT </a></li>    
+</nav><br><br><br>
+ <img src="c3.png" align="right" width="550" height="300" style="padding-right: 100px;">
+<div class="wrapper">
+  <div class="wrapper_left">
+    <ul>
+      <li data-li="am" class="active">
+        <p><a href="docname.html" style="text-decoration: none;color: white;">ALLERGISTS/IMMUNOLOGISTS</a></p>
+      </li>
+      <li data-li="ad">
+        <p><a href="#" style="text-decoration: none;color: white;">ANESTHESIOLOGISTS</a></p>
+      </li>
+      <li data-li="en">
+        <p><a href="#" style="text-decoration: none;color: white;">ENDOCRINOLIGISTS</a></p>
+      </li>
+      <li data-li="cd">
+        <p><a href="#" style="text-decoration: none;color: white;">CARDEOLIGISTS</a></p>
+      </li>
+      <li data-li="ss">
+        <p><a href="#" style="text-decoration: none;color: white;">SURGEONS</a></p>
+      </li>
+      <li data-li="noah">
+        <p><a href="#" style="text-decoration: none;color: white;">CRITICAL CARE</a></p>
+      </li>
+      <li data-li="william">
+        <p><a href="#" style="text-decoration: none; color: white;">DERMATOLOGISTS</a></p>
+      </li>
+      <li data-li="henry">
+        <p><a href="#" style="text-decoration:none; color: white;">NEUROLOGISTS</a></p>
+      </li>
+
+    </ul>
+  </div>

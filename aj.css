@@ -1,0 +1,142 @@
+.wrapper {
+  padding-left: 220px;
+  position: absolute;
+  top: 53%;
+  left: 25%;
+  padding-top: 40px;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border-radius: 15px;
+}
+
+.wrapper .wrapper_left {
+  width: 250px;
+  padding-right: 280px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+
+.wrapper .wrapper_left ul li {
+  background: #313142;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.wrapper .wrapper_left ul li p {
+  color: #abaacd;
+  position: relative;
+}
+
+.wrapper .wrapper_left ul li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 70%;
+  );
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: all 0.4s ease;
+}
+
+.wrapper .wrapper_left ul li.active {
+  width: 250px;
+}
+.wrapper .wrapper_left ul li.active p {
+  color: #fff;
+}
+.wrapper .wrapper_left ul li.active:before {
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.wrapper .wrapper_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .wrapper_right {
+  width: 600px;
+  padding: 20px;
+}
+
+
+.wrapper .wrapper_right .item .item_info {
+  padding-top: 40px;
+  display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.wrapper .wrapper_right .item .item_info p {
+  
+  padding-top: 10px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #abaacd;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+}
+.wrapper .wrapper_right .item .item_info .img {
+  width: 200px;
+  height: 120px;
+
+}
+
+.wrapper .wrapper_right .item.angular .item_info .img:before {
+  background-position: 0 0;
+  width: 250px;
+  height: 300px}
+.wrapper .wrapper_right .item.nodejs .item_info .img:before {
+  background-position: 0 -110px;
+  width: 250px;
+  height: 300px
+}
+.wrapper .wrapper_right .item.reactjs .item_info .img:before {
+  background-position: 0 -220px;
+  width: 250px;
+  height: 300px;
+}
+.wrapper .wrapper_right .item.vuejs .item_info .img:before {
+  background-position: 0 -330px;
+ width: 250px;
+  height: 300px
+}
+.wrapper .wrapper_right .item.angular .item_info p {
+  color: #dd0330;
+}
+.wrapper .wrapper_right .item.nodejs .item_info p {
+  color: #8bc500;
+}
+.wrapper .wrapper_right .item.reactjs .item_info p {
+  color: #61dafb;
+}
+.wrapper .wrapper_right .item.vuejs .item_info p {
+  color: #41b783;
+}
+
+.wrapper .wrapper_right .item p {
+  margin-bottom: 20px;
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
